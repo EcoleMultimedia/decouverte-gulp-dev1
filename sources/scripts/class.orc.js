@@ -16,8 +16,8 @@ Orc.prototype.scratch = function(victim){
 		else{
 			console.log('Il lui reste '+victim.strength+ ' points de force');
 		}
-}
+};
 
 Orc.prototype.kill = function() {
 	console.log("do something");
-}
+};
