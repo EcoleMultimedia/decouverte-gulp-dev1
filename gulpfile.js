@@ -1,3 +1,4 @@
+var path    = require("path");
 var gulp    = require("gulp");
 var concat  = require("gulp-concat");
 var uglify  = require("gulp-uglify");
@@ -53,7 +54,7 @@ gulp.task('open', function() {
 // Cette tâche permet de créer un serveur local qui sert notre application
 gulp.task('connect', function() {
   connect.server({
-    root: './',
+    root: path.resolve("./"),
     livereload: true
   });
 });
