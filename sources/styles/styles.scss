@@ -11,18 +11,26 @@ html {
   font-family: $default-font-family;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 nav {
   background-color: black;
+  margin-bottom: 1rem;
 
   ul {
     margin: 0;
     padding: 0;
+    text-align: center;
 
     li {
       display: inline-block;
 
       a {
         display: block;
+        padding: 0.5rem 2rem;
 
         &:link, &:visited {
           color: $rouge;
