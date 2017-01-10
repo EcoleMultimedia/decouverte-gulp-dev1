@@ -6,7 +6,7 @@ Ce projet permet de mettre en pratique l'outil *Gulp* pour répondre à des prob
 
 # Installation
 
-Cloner ce projet : `git clone git@github.com:jmpp/decouverte-gulp-dev1.git`
+Cloner ce projet : `git clone git@github.com:EcoleMultimedia/decouverte-gulp-dev1.git`
 
 Récupérer les dépendences développeur : `npm install -d`
 
